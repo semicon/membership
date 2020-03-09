@@ -19149,11 +19149,11 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
 	cr.plugins_.Button,
 	cr.plugins_.Browser,
-	cr.plugins_.List,
 	cr.plugins_.Function,
+	cr.plugins_.List,
+	cr.plugins_.TextBox,
 	cr.plugins_.Rex_CSV,
 	cr.plugins_.Text,
-	cr.plugins_.TextBox,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.AJAX.prototype.acts.Request,
 	cr.plugins_.Text.prototype.acts.SetText,
@@ -19179,11 +19179,11 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.cnds.CompareText,
 	cr.plugins_.AJAX.prototype.acts.Post,
 	cr.system_object.prototype.exps.urlencode,
+	cr.system_object.prototype.acts.Wait,
+	cr.system_object.prototype.acts.ResetGlobals,
 	cr.plugins_.AJAX.prototype.cnds.OnError,
 	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.List.prototype.cnds.CompareSelectedText,
 	cr.plugins_.List.prototype.exps.SelectedText,
-	cr.system_object.prototype.exps["int"],
-	cr.system_object.prototype.acts.Wait,
-	cr.system_object.prototype.acts.ResetGlobals
+	cr.system_object.prototype.exps["int"]
 ];};
